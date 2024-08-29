@@ -1,0 +1,15 @@
+type Listings{
+    id: Int!
+    title: String!
+    numOfBeds: Int
+    costPerNight: Float
+    closedForBookings: Boolean
+}
+
+type featuredListings{
+    listings :[Listings]!
+}
+
+type Query {
+    featuredListings: featuredListings
+}
