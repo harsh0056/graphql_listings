@@ -1,5 +1,5 @@
 type Listings{
-    id: Int!
+    id: String!
     title: String!
     numOfBeds: Int
     costPerNight: Float
